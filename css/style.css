@@ -11,14 +11,22 @@
 }
 
 main :nth-child(even) {
-  background-color: grey;
+  background-color: lightgrey;
+}
+main :nth-child(even) > .card {
+  flex-direction: row-reverse;
+}
+
+footer {
+  background-color: black;
+  padding-top: 10px;
 }
 
 /* UTILS */
 
 .container {
   margin: 0 auto;
-  padding: 5px 10px;
+  /* padding: 0 10px; */
   width: 750px;
   max-width: 100%;
 }
@@ -109,11 +117,13 @@ main :nth-child(even) {
 
 /* MAIN */
 
+.band {
+  padding: 40px;
+}
+
 .card {
   display: flex;
-
-  height: 300px;
-  margin: 40px auto;
+  height: 350px;
 }
 
 .card > .column-small {
@@ -129,4 +139,34 @@ main :nth-child(even) {
   flex-basis: 600px;
   background-color: aqua;
   border: 1px dashed black;
+}
+
+.bigbox {
+  height: 500px;
+  background-color: green;
+  border: 1px dashed black;
+}
+
+/* FOOTER */
+
+.footer-upper {
+  display: flex;
+  height: 400px;
+}
+
+.footer-right {
+  display: flex;
+  flex-basis: 500px;
+}
+
+.footer-left {
+  flex-basis: 300px;
+  background-color: pink;
+  border: 1px dashed black;
+}
+
+.footer-column {
+  flex-basis: 125px;
+  background-color: aqua;
+  border: 1px dashed white;
 }
