@@ -1,10 +1,30 @@
 /* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* DEBUG */
+
+.debug {
+  background-color: brown;
+  border: 1px dashed black;
+  padding: 10px;
+}
+
+.debug.debug {
+  background-color: crimson;
+}
+
+.debug.debug.debug {
+  background-color: orangered;
+}
+
+.debug.debug.debug.debug {
+  background-color: orange;
+}
 
 /* UTILS */
 
