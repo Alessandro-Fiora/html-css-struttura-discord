@@ -14,15 +14,15 @@
   padding: 10px;
 }
 
-.debug.debug {
+.debug .debug {
   background-color: crimson;
 }
 
-.debug.debug.debug {
+.debug .debug .debug {
   background-color: orangered;
 }
 
-.debug.debug.debug.debug {
+.debug .debug .debug .debug {
   background-color: orange;
 }
 
@@ -33,4 +33,19 @@
   padding: 0 10px;
   width: 1000px;
   max-width: 100%;
+}
+
+/* HEADER */
+
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header .link-list {
+  list-style-type: none;
+}
+
+.link-list > li {
+  display: inline-block;
 }
