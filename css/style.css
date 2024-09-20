@@ -152,6 +152,7 @@ footer {
 .footer-upper {
   display: flex;
   height: 400px;
+  margin-bottom: 20px;
 }
 
 .footer-right {
@@ -169,4 +170,18 @@ footer {
   flex-basis: 125px;
   background-color: aqua;
   border: 1px dashed white;
+}
+
+.footer-lower {
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+  background-color: aquamarine;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-lower > * {
+  background-color: lightgrey;
+  border: 1px dashed black;
 }
