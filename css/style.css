@@ -177,7 +177,8 @@ footer {
   align-items: center;
 }
 
-.footer-lower > * {
+.footer-lower > .logo-container,
+.footer-lower > .button-container {
   background-color: lightpink;
   border: 1px dashed black;
   padding: 5px;
